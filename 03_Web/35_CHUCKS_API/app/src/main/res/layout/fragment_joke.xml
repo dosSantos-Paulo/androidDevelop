@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".joke.view.JokeFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingMin"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/img_jokeIcon_jokeFragment"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/marginMin"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="@dimen/boxRadius"
+            >
+
+            <TextView
+                android:id="@+id/txt_joke_jokeFragment"
+                android:layout_margin="@dimen/paddingMed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="NewJoke"
+                android:textSize="@dimen/CategoryBoxTextSize"
+                android:fontFamily="@font/roboto_black"
+                android:textColor="@color/colorWithe"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

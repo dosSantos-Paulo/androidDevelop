@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingMin">12dp</dimen>
+    <dimen name="marginMin">8dp</dimen>
+    <dimen name="categoryBoxHeight">80dp</dimen>
+    <dimen name="CategoryBoxTextSize">25sp</dimen>
+    <dimen name="boxRadius">12dp</dimen>
+    <dimen name="paddingMed">20dp</dimen>
+</resources>
