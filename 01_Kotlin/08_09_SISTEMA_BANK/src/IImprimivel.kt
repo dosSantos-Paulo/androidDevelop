@@ -1,0 +1,3 @@
+interface IImprimivel {
+    fun mostrarDados ()
+}
