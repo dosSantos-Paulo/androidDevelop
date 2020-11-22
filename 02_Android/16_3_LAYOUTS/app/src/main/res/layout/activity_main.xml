@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="25sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:textSize="@dimen/txtSize"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/marginBotton"/>
+
+
+    <EditText
+        android:id="@+id/edtTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEdtTxt"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/marginBotton"
+        />
+
+    <Button
+        android:id="@+id/btnConverter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converter"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/marginBotton"
+        android:textSize="@dimen/txtSize"
+        android:paddingStart="@dimen/paddingButton"
+        android:paddingEnd="@dimen/paddingButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/txtResposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/answerTxtSize"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/marginTop"
+        />
+
+
+
+</LinearLayout>

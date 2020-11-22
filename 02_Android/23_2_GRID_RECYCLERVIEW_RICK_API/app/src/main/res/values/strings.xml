@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RickApp</string>
+    <string name="imagem">Imagem</string>
+    <string name="item_image">Item image</string>
+    <string name="genero">Genero</string>
+    <string name="nome">nome</string>
+    <string name="planeta">Planeta</string>
+    <string name="status">Status</string>
+    <string name="especie">Especie</string>
+</resources>

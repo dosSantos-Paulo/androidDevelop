@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">34sp</dimen>
+    <dimen name="margin_title">80dp</dimen>
+    <dimen name="margin_Botton_default">60dp</dimen>
+    <dimen name="margin_top_default">4dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="padding_start_end">40dp</dimen>
+    <dimen name="text_size_20">20dp</dimen>
+    <dimen name="width_button">200dp</dimen>
+    <dimen name="height_size">40dp</dimen>
+    <dimen name="margin_top_50">50dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+</resources>

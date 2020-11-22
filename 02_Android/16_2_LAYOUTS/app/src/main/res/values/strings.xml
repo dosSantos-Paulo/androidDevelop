@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ObtendoElementos</string>
+    <string name="resposta">Olá, %s</string>
+</resources>

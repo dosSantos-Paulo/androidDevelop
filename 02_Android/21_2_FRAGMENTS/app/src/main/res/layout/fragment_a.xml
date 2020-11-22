@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+            android:gravity="center">
+
+        <android.inputmethodservice.ExtractEditText
+            android:id="@+id/edt_nomeFragmentA"
+            android:layout_margin="@dimen/margin_min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nome"
+            android:inputType="text"/>
+
+        <android.inputmethodservice.ExtractEditText
+            android:id="@+id/edt_AnoFragmentA"
+            android:layout_margin="@dimen/margin_min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ano_de_nascimento"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn_calcularFragmentA"
+            android:layout_marginTop="@dimen/margin_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</FrameLayout>

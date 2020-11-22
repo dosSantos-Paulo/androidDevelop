@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab21</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome">Nome</string>
+    <string name="ano_de_nascimento">Ano de nascimento</string>
+    <string name="calcular">Calcular</string>
+</resources>

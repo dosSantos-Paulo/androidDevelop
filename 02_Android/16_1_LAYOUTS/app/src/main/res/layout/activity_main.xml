@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:layout_marginBottom="80sp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/foobar"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/title" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="@dimen/textEditSize"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/textEditSize"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/login"
+        android:textSize="@dimen/textBotonSize"
+        android:textColor="@color/colorAccent" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/singUp"
+            android:layout_gravity="bottom"
+            android:textColor="@color/colorAccent"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

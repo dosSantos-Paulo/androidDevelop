@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab24</string>
+    <string name="tab_login">Tab login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="i_agree">I agree</string>
+    <string name="digite_o_login">Digite o login</string>
+    <string name="digite_a_senha">Digite a senha</string>
+    <string name="senha_diferente">Senha diferente</string>
+    <string name="splashscreem">SplashScreem</string>
+    <string name="title_activity_full_screem_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

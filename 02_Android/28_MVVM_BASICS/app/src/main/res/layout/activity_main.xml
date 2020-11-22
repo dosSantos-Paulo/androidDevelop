@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".contador.view.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_adiciona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adiciona"
+            android:textAllCaps="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cornerRadius="20dp"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_subtrai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subtrai"
+            android:textAllCaps="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cornerRadius="20dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_multiplica2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/x_2"
+            android:textAllCaps="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cornerRadius="20dp"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_divide2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/__2"
+            android:textAllCaps="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cornerRadius="20dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <RadioButton
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2"/>
+
+            <RadioButton
+                android:id="@+id/btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3"/>
+
+            <RadioButton
+                android:id="@+id/btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_4"/>
+
+            <RadioButton
+                android:id="@+id/btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5"/>
+
+
+            <RadioButton
+                android:id="@+id/btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_6"/>
+
+            <RadioButton
+                android:id="@+id/btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_7"/>
+
+            <RadioButton
+                android:id="@+id/btn_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_8" />
+
+            <RadioButton
+                android:id="@+id/btn_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_9"/>
+
+            <RadioButton
+                android:id="@+id/btn_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_10"/>
+
+        </RadioGroup>
+
+    </HorizontalScrollView>
+
+
+
+
+</LinearLayout>

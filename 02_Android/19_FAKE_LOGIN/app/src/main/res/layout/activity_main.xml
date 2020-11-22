@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMain"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Login"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/title_size"
+        android:layout_marginTop="@dimen/margin_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_Botton_default"
+        android:layout_marginTop="@dimen/margin_top_default"
+        android:fontFamily="sans-serif-light"
+        android:text="TO CONTINUE"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size"
+        android:letterSpacing="0.3"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/padding_start_end"
+        android:paddingStart="@dimen/padding_start_end"
+        android:layout_gravity="center|center_vertical">
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:backgroundTint="@color/colorWhite"/>
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColorHint="@color/colorWhite"
+            android:backgroundTint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="@dimen/text_size_20"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="@dimen/height_size"
+            android:textColor="@color/colorMain"
+            android:layout_gravity="center"
+            android:text="Log in"
+            android:textSize="@dimen/text_size"
+            android:background="@color/colorWhite"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_marginTop="@dimen/margin_top_50"/>
+
+        <Button
+            android:id="@+id/btn_createAccountLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/colorWhite"
+            android:text="Create Account"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top_default"/>
+    </LinearLayout>
+
+
+</LinearLayout>
