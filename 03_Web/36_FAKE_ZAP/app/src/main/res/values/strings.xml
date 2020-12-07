@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fake Whatsapp</string>
+    <string name="contacts">contacts</string>
+    <string name="calls">calls</string>
+    <string name="status">status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome">nome</string>
+    <string name="text">Text</string>
+</resources>
