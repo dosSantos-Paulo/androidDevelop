@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SHARED_PREFERENCES</string>
+    <string name="login_theme">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="remember">Remember</string>
+    <string name="login">login</string>
+    <string name="prefs_login">Prefs Login</string>
+</resources>
