@@ -1,19 +1,12 @@
 package com.digitalhouse.rickapp
 
-import android.app.AlertDialog
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.digitalhouse.rickapp.api.IRespostaDaApi
 import com.digitalhouse.rickapp.api.Personagem
 import com.digitalhouse.rickapp.api.RickApi
-import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.squareup.picasso.Picasso
 import layout.RecyclerAdapter
 
 class MainActivity : AppCompatActivity() {
